@@ -1,0 +1,29 @@
+{
+  "name": "pn-bootstrap-utilities",
+  "version": "1.0.0-rc1-0",
+  "description": "PhantomNet Bootstrap utilities",
+  "main": "./dist/pn-bootstrap-utilities.css",
+  "authors": [
+    "Minh Nguyen <mnguyen284@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "PhantomNet",
+    "Bootstrap"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "https://github.com/green-grass/pn-bootstrap-utilities",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": ">= 3.3.6"
+  }
+}

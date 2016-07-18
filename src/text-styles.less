@@ -1,0 +1,49 @@
+// Text size utilities
+// -------------------------
+
+.text-small      { font-size: @font-size-small; }
+.text-normalsize { font-size: @font-size-base; }
+.text-large      { font-size: @font-size-large; }
+.text-h3size     { font-size: @font-size-h3; }
+.text-h2size     { font-size: @font-size-h2; }
+.text-h1size     { font-size: @font-size-h1; }
+
+@media (max-width: @screen-xs-max) {
+    .make-text-size(xs);
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .make-text-size(sm);
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .make-text-size(md);
+}
+
+@media (min-width: @screen-lg-min) {
+    .make-text-size(lg);
+}
+
+
+// Text weight utilities
+// -------------------------
+
+.text-light        { font-weight: @font-weight-light; }
+.text-normalweight { font-weight: @font-weight-base; }
+.text-bold         { font-weight: @font-weight-bold; }
+
+@media (max-width: @screen-xs-max) {
+    .make-text-weight(xs);
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .make-text-weight(sm);
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .make-text-weight(md);
+}
+
+@media (min-width: @screen-lg-min) {
+    .make-text-weight(lg);
+}
