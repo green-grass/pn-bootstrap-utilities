@@ -1,12 +1,12 @@
 // Text size utilities
 // -------------------------
 
-.text-small      { font-size: @font-size-small; }
-.text-normalsize { font-size: @font-size-base; }
-.text-large      { font-size: @font-size-large; }
-.text-h3size     { font-size: @font-size-h3; }
-.text-h2size     { font-size: @font-size-h2; }
-.text-h1size     { font-size: @font-size-h1; }
+.text-small      { font-size: @font-size-small !important; }
+.text-normalsize { font-size: @font-size-base !important; }
+.text-large      { font-size: @font-size-large !important; }
+.text-h3size     { font-size: @font-size-h3 !important; }
+.text-h2size     { font-size: @font-size-h2 !important; }
+.text-h1size     { font-size: @font-size-h1 !important; }
 
 @media (max-width: @screen-xs-max) {
     .make-text-size(xs);
@@ -28,9 +28,9 @@
 // Text weight utilities
 // -------------------------
 
-.text-light        { font-weight: @font-weight-light; }
-.text-normalweight { font-weight: @font-weight-base; }
-.text-bold         { font-weight: @font-weight-bold; }
+.text-light        { font-weight: @font-weight-light !important; }
+.text-normalweight { font-weight: @font-weight-base !important; }
+.text-bold         { font-weight: @font-weight-bold !important; }
 
 @media (max-width: @screen-xs-max) {
     .make-text-weight(xs);
