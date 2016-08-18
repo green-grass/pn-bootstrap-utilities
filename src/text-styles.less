@@ -47,3 +47,20 @@
 @media (min-width: @screen-lg-min) {
     .make-text-weight(lg);
 }
+
+
+// Text color utilities
+// -------------------------
+
+.text-normal-color {
+    &,
+    a {
+        color: @text-color;
+    }
+
+    &.text-muted, .text-muted {
+        a {
+            color: @text-muted;
+        }
+    }
+}
