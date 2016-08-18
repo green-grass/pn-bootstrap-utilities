@@ -464,6 +464,15 @@
     text-align: center;
   }
 }
+a.link-block {
+  display: block;
+}
+a.link-block.active,
+a.link-block:hover,
+a.link-block:focus {
+  background-color: #337ab7;
+  text-decoration: none;
+}
 .text-small {
   font-size: 12px !important;
 }
