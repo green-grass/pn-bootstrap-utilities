@@ -41,3 +41,17 @@
 .p-l-sm { padding-left:   (@spacer-y / 2) !important; }
 .p-x-sm { padding-right:  (@spacer-x / 2) !important; padding-left:   (@spacer-x / 2) !important; }
 .p-y-sm { padding-top:    (@spacer-y / 2) !important; padding-bottom: (@spacer-y / 2) !important; }
+
+.make-spacer(xs);
+
+@media (min-width: @screen-sm-min) {
+    .make-spacer(sm);
+}
+
+@media (min-width: @screen-md-min) {
+    .make-spacer(md);
+}
+
+@media (min-width: @screen-lg-min) {
+    .make-spacer(lg);
+}
